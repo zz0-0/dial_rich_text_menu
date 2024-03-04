@@ -1,4 +1,4 @@
-import 'package:dial_rich_text_menu/src/presentation/widget/heading.dart';
+import 'package:dial_rich_text_menu/src/icons/heading_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -50,11 +50,6 @@ class _RichTextMenuState extends ConsumerState<RichTextMenu> {
           icon: const Icon(Icons.fullscreen_outlined),
         ),
         // indent
-        IconButton(
-          onPressed: onPressed,
-          icon: const Icon(Icons.format_bold_outlined),
-        ),
-        // align
         IconButton(
           onPressed: onPressed,
           icon: const Icon(Icons.format_indent_decrease_outlined),
