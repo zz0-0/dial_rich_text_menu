@@ -81,9 +81,8 @@ class RichTextMenu extends ConsumerStatefulWidget {
 class _RichTextMenuState extends ConsumerState<RichTextMenu> {
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return Wrap(
       children: [
-        // bold
         IconButton(
           onPressed: widget.onBoldPressed ?? onBoldPressed,
           icon: const Icon(Icons.format_bold_outlined),
@@ -249,37 +248,135 @@ class _RichTextMenuState extends ConsumerState<RichTextMenu> {
     );
   }
 
-  VoidCallback? onBoldPressed() {}
-  VoidCallback? onItalicPressed() {}
-  VoidCallback? onBulletListPressed() {}
-  VoidCallback? onNumberListPressed() {}
-  VoidCallback? onLinkPressed() {}
-  VoidCallback? onImagePressed() {}
-  VoidCallback? onFullScreenPressed() {}
-  VoidCallback? onIndentDecreasePressed() {}
-  VoidCallback? onIndentIncreasePressed() {}
-  VoidCallback? onUndoPressed() {}
-  VoidCallback? onRedoPressed() {}
-  VoidCallback? onTypeH1Pressed() {}
-  VoidCallback? onTypeH2Pressed() {}
-  VoidCallback? onTypeH3Pressed() {}
-  VoidCallback? onTypeH4Pressed() {}
-  VoidCallback? onTypeH5Pressed() {}
-  VoidCallback? onTypeH6Pressed() {}
-  VoidCallback? onTextColorPressed() {}
-  VoidCallback? onBackgroundColorPressed() {}
-  VoidCallback? onHtmlPressed() {}
-  VoidCallback? onAlignLeftPressed() {}
-  VoidCallback? onAlignCenterPressed() {}
-  VoidCallback? onAlignRightPressed() {}
-  VoidCallback? onClearFormatPressed() {}
-  VoidCallback? onLineSpacingPressed() {}
-  VoidCallback? onOverlinePressed() {}
-  VoidCallback? onUnderlinePressed() {}
-  VoidCallback? onSizePressed() {}
-  VoidCallback? onStrikethroughPressed() {}
-  VoidCallback? onCheckboxPressed() {}
-  VoidCallback? onQuotePressed() {}
-  VoidCallback? onCodePressed() {}
-  VoidCallback? onHorizontalRulePressed() {}
+  VoidCallback? onBoldPressed() {
+    return null;
+  }
+
+  VoidCallback? onItalicPressed() {
+    return null;
+  }
+
+  VoidCallback? onBulletListPressed() {
+    return null;
+  }
+
+  VoidCallback? onNumberListPressed() {
+    return null;
+  }
+
+  VoidCallback? onLinkPressed() {
+    return null;
+  }
+
+  VoidCallback? onImagePressed() {
+    return null;
+  }
+
+  VoidCallback? onFullScreenPressed() {
+    return null;
+  }
+
+  VoidCallback? onIndentDecreasePressed() {
+    return null;
+  }
+
+  VoidCallback? onIndentIncreasePressed() {
+    return null;
+  }
+
+  VoidCallback? onUndoPressed() {
+    return null;
+  }
+
+  VoidCallback? onRedoPressed() {
+    return null;
+  }
+
+  VoidCallback? onTypeH1Pressed() {
+    return null;
+  }
+
+  VoidCallback? onTypeH2Pressed() {
+    return null;
+  }
+
+  VoidCallback? onTypeH3Pressed() {
+    return null;
+  }
+
+  VoidCallback? onTypeH4Pressed() {
+    return null;
+  }
+
+  VoidCallback? onTypeH5Pressed() {
+    return null;
+  }
+
+  VoidCallback? onTypeH6Pressed() {
+    return null;
+  }
+
+  VoidCallback? onTextColorPressed() {
+    return null;
+  }
+
+  VoidCallback? onBackgroundColorPressed() {
+    return null;
+  }
+
+  VoidCallback? onHtmlPressed() {
+    return null;
+  }
+
+  VoidCallback? onAlignLeftPressed() {
+    return null;
+  }
+
+  VoidCallback? onAlignCenterPressed() {
+    return null;
+  }
+
+  VoidCallback? onAlignRightPressed() {
+    return null;
+  }
+
+  VoidCallback? onClearFormatPressed() {
+    return null;
+  }
+
+  VoidCallback? onLineSpacingPressed() {
+    return null;
+  }
+
+  VoidCallback? onOverlinePressed() {
+    return null;
+  }
+
+  VoidCallback? onUnderlinePressed() {
+    return null;
+  }
+
+  VoidCallback? onSizePressed() {
+    return null;
+  }
+
+  VoidCallback? onStrikethroughPressed() {
+    return null;
+  }
+
+  VoidCallback? onCheckboxPressed() {
+    return null;
+  }
+
+  VoidCallback? onQuotePressed() {
+    return null;
+  }
+
+  VoidCallback? onCodePressed() {
+    return null;
+  }
+
+  VoidCallback? onHorizontalRulePressed() {
+    return null;
+  }
 }
